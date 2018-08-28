@@ -5,3 +5,5 @@ const simpleAction = () => dispatch => {
     payload: 'result of the action',
   })
 };
+
+export default simpleAction;

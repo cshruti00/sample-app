@@ -31,9 +31,9 @@ class App extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  result  : state.result
-};
+const mapStateToProps = (state) => ({
+  ...state
+});
 
 const mapDispatchToProps = dispatch => ({
   simpleAction: () => dispatch(simpleAction())
